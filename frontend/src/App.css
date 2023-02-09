@@ -1,0 +1,46 @@
+.home-page {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+@media(max-width:740px){
+  .header{
+    justify-content: center;
+  }
+}
+
+.logo {
+  height: 50px;
+  margin: 0;
+}
+
+h1 {
+  color: purple;
+  font-size: 36px;
+  margin: 0;
+}
+
+p {
+  color: purple;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.sign-in-button {
+  background-color: purple;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 20px;
+}
